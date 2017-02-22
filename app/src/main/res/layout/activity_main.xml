@@ -12,6 +12,7 @@
         android:paddingTop="@dimen/activity_vertical_margin"
         tools:context="com.numiracles.firetv.tvlogin.MainActivity">
 
+
         <TextView
             android:id="@+id/infoTextView"
             android:layout_width="match_parent"
@@ -142,11 +143,11 @@
 
         <Button
             android:id="@+id/buttonA"
-            
             android:layout_width="50dp"
             android:layout_height="wrap_content"
             android:layout_below="@id/button1"
             android:nextFocusLeft="@+id/buttonJ"
+            android:textAllCaps="false"
             android:text="A"
             android:textSize="20sp" />
 
@@ -157,6 +158,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/button2"
             android:layout_toRightOf="@id/buttonA"
+            android:textAllCaps="false"
             android:text="B"
             android:textSize="20sp" />
 
@@ -167,6 +169,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/button3"
         android:layout_toRightOf="@id/buttonB"
+            android:textAllCaps="false"
         android:text="C"
         android:textSize="20sp" />
 
@@ -177,6 +180,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/button4"
             android:layout_toRightOf="@id/buttonC"
+            android:textAllCaps="false"
             android:text="D"
             android:textSize="20sp" />
 
@@ -187,6 +191,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/button5"
             android:layout_toRightOf="@id/buttonD"
+            android:textAllCaps="false"
             android:text="E"
             android:textSize="20sp" />
 
@@ -197,6 +202,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/button6"
             android:layout_toRightOf="@id/buttonE"
+            android:textAllCaps="false"
             android:text="F"
             android:textSize="20sp" />
 
@@ -207,6 +213,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/button7"
             android:layout_toRightOf="@id/buttonF"
+            android:textAllCaps="false"
             android:text="G"
             android:textSize="20sp" />
 
@@ -217,6 +224,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/button8"
             android:layout_toRightOf="@id/buttonG"
+            android:textAllCaps="false"
             android:text="H"
             android:textSize="20sp" />
 
@@ -227,6 +235,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/button9"
             android:layout_toRightOf="@id/buttonH"
+            android:textAllCaps="false"
             android:text="I"
             android:textSize="20sp" />
 
@@ -238,6 +247,7 @@
             android:layout_below="@id/button0"
             android:layout_toRightOf="@id/buttonI"
             android:nextFocusRight="@+id/buttonA"
+            android:textAllCaps="false"
             android:text="J"
             android:textSize="20sp" />
 
@@ -249,6 +259,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/buttonA"
             android:nextFocusLeft="@+id/buttonT"
+            android:textAllCaps="false"
             android:text="K"
             android:textSize="20sp" />
 
@@ -259,6 +270,7 @@
             android:layout_height="wrap_content"
             android:layout_alignRight="@id/buttonB"
             android:layout_below="@id/buttonB"
+            android:textAllCaps="false"
             android:text="L"
             android:textSize="20sp" />
 
@@ -269,6 +281,7 @@
             android:layout_height="wrap_content"
             android:layout_alignRight="@id/buttonC"
             android:layout_below="@id/buttonC"
+            android:textAllCaps="false"
             android:text="M"
             android:textSize="20sp" />
 
@@ -279,6 +292,7 @@
             android:layout_height="wrap_content"
             android:layout_alignRight="@id/buttonD"
             android:layout_below="@id/buttonD"
+            android:textAllCaps="false"
             android:text="N"
             android:textSize="20sp" />
 
@@ -289,6 +303,7 @@
             android:layout_height="wrap_content"
             android:layout_alignRight="@id/buttonE"
             android:layout_below="@id/buttonE"
+            android:textAllCaps="false"
             android:text="O"
             android:textSize="20sp" />
 
@@ -299,6 +314,7 @@
             android:layout_height="wrap_content"
             android:layout_alignRight="@id/buttonF"
             android:layout_below="@id/buttonF"
+            android:textAllCaps="false"
             android:text="P"
             android:textSize="20sp" />
 
@@ -309,6 +325,7 @@
             android:layout_height="wrap_content"
             android:layout_alignRight="@id/buttonG"
             android:layout_below="@id/buttonG"
+            android:textAllCaps="false"
             android:text="Q"
             android:textSize="20sp" />
 
@@ -319,6 +336,7 @@
             android:layout_height="wrap_content"
             android:layout_alignRight="@id/buttonH"
             android:layout_below="@id/buttonH"
+            android:textAllCaps="false"
             android:text="R"
             android:textSize="20sp" />
 
@@ -329,6 +347,7 @@
             android:layout_height="wrap_content"
             android:layout_alignRight="@id/buttonI"
             android:layout_below="@id/buttonI"
+            android:textAllCaps="false"
             android:text="S"
             android:textSize="20sp" />
 
@@ -340,6 +359,7 @@
             android:layout_alignLeft="@id/buttonJ"
             android:layout_below="@id/buttonJ"
             android:nextFocusRight="@+id/buttonK"
+            android:textAllCaps="false"
             android:text="T"
             android:textSize="20sp" />
 
@@ -350,6 +370,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/buttonK"
             android:nextFocusLeft="@+id/buttonAdd"
+            android:textAllCaps="false"
             android:text="U"
             android:textSize="20sp" />
 
@@ -360,6 +381,7 @@
             android:layout_height="wrap_content"
             android:layout_alignRight="@id/buttonL"
             android:layout_below="@id/buttonL"
+            android:textAllCaps="false"
             android:text="V"
             android:textSize="20sp" />
 
@@ -370,6 +392,7 @@
             android:layout_height="wrap_content"
             android:layout_alignRight="@id/buttonM"
             android:layout_below="@id/buttonM"
+            android:textAllCaps="false"
             android:text="W"
             android:textSize="20sp" />
 
@@ -380,6 +403,7 @@
             android:layout_height="wrap_content"
             android:layout_alignRight="@id/buttonN"
             android:layout_below="@id/buttonN"
+            android:textAllCaps="false"
             android:text="X"
             android:textSize="20sp" />
 
@@ -390,6 +414,7 @@
             android:layout_height="wrap_content"
             android:layout_alignRight="@id/buttonO"
             android:layout_below="@id/buttonO"
+            android:textAllCaps="false"
             android:text="Y"
             android:textSize="20sp" />
 
@@ -400,6 +425,7 @@
             android:layout_height="wrap_content"
             android:layout_alignRight="@id/buttonP"
             android:layout_below="@id/buttonP"
+            android:textAllCaps="false"
             android:text="Z"
             android:textSize="20sp" />
 
@@ -444,6 +470,14 @@
             android:text="+"
             android:textSize="20sp" />
 
+        <Button
+            android:id="@+id/buttonCaps"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/buttonX"
+            android:text="@string/button_caps"
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/buttonBackspace"
@@ -451,6 +485,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/buttonX"
+            android:layout_toRightOf="@id/buttonCaps"
             android:text="@string/backspace"
             android:textSize="20sp" />
 
@@ -459,8 +494,8 @@
             
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_below="@id/buttonX"
             android:layout_toRightOf="@id/buttonBackspace"
-            android:layout_below="@id/buttonU"
             android:text="@string/clear"
             android:textSize="20sp" />
 
@@ -469,8 +504,8 @@
             
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_below="@id/buttonX"
             android:layout_toRightOf="@id/buttonClear"
-            android:layout_below="@id/buttonAt"
             android:text="@string/button_submit"
             android:textSize="20sp" />
 

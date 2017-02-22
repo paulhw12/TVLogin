@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TV Login</string>
+    <string name="backspace">Backspace</string>
+    <string name="clear">Clear</string>
+    <string name="button_submit">Next</string>
+    <string name="button_reset">Restart</string>
+</resources>

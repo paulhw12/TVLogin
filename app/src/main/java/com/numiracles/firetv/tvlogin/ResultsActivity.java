@@ -8,6 +8,8 @@ import android.widget.TextView;
 
 public class ResultsActivity extends AppCompatActivity {
 
+    // TextView ResultsTextView = (TextView)findViewById(R.id.ResultsText1);
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -15,11 +17,14 @@ public class ResultsActivity extends AppCompatActivity {
 
         Intent intent = getIntent();
         String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
+//        ResultsTextView.setText(message);
+
         TextView textView = new TextView(this);
         textView.setTextSize(40);
         textView.setText(message);
 
         ViewGroup layout = (ViewGroup) findViewById(R.id.activity_results);
         layout.addView(textView);
+
     }
 }

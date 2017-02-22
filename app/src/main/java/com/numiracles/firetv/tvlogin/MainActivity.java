@@ -21,7 +21,7 @@ import static android.provider.AlarmClock.EXTRA_MESSAGE;
 public class MainActivity extends AppCompatActivity {
 
     private ActivityMainBinding binding;
-    public final static String EXTRA_MESSAGE = "";
+    public final static String EXTRA_MESSAGE = "test";
     private String CURRENT_ACTION = "email";
     private String FirstPass = "";
     private String ConfPass = "";
@@ -449,7 +449,7 @@ public class MainActivity extends AppCompatActivity {
 
                 if(CURRENT_ACTION == "confpassword") {
                     ConfPass = binding.editText.getText().toString();
-                    Toast.makeText(getApplicationContext(), "PW " + FirstPass + "Conf " + ConfPass, Toast.LENGTH_LONG).show();
+                    // Toast.makeText(getApplicationContext(), "PW " + FirstPass + "Conf " + ConfPass, Toast.LENGTH_LONG).show();
                     if (!FirstPass.equals(ConfPass)) {
                         Toast.makeText(getApplicationContext(), "Passwords did not match - try again", Toast.LENGTH_LONG).show();
                         binding.infoTextViewEmail.setText("Enter Password" );
@@ -459,7 +459,7 @@ public class MainActivity extends AppCompatActivity {
                         CURRENT_ACTION = "password";
                         return;
                     }
-                    Toast.makeText(getApplicationContext(), "You pressed " + ActualKeyPresses + " buttons registering!", Toast.LENGTH_LONG).show();
+                    // Toast.makeText(getApplicationContext(), "You pressed " + ActualKeyPresses + " buttons registering!", Toast.LENGTH_LONG).show();
                     showResults();
                 }
 

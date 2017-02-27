@@ -518,6 +518,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        binding.buttonLWA.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                LoginWithAmazon();
+            }
+        });
+
     }
 
     public void showResults() {
@@ -525,6 +532,10 @@ public class MainActivity extends AppCompatActivity {
         String message = "Registering your email address via the remote took " + ActualKeyPresses + " keypresses.";
         intent.putExtra(EXTRA_MESSAGE, message);
         startActivity(intent);
+    }
+
+    public void LoginWithAmazon() {
+        startActivity(new Intent(this, LWAActivity.class));
     }
 
     public void setLowercase() {

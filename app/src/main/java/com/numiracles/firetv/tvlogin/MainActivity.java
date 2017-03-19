@@ -45,7 +45,6 @@ public class MainActivity extends AppCompatActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
 
         binding.button1.setOnClickListener(new View.OnClickListener() {
@@ -197,6 +196,18 @@ public class MainActivity extends AppCompatActivity {
         });
 
         binding.buttonH.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                if (KeyboardCase.equals("upper")) {
+                    binding.editText.setText(binding.editText.getText() + "H");
+                }
+                if (KeyboardCase.equals("lower")) {
+                    binding.editText.setText(binding.editText.getText() + "h");
+                }
+            }
+        });
+
+
+        binding.buttonI.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 if (KeyboardCase.equals("upper")) {
                     binding.editText.setText(binding.editText.getText() + "I");
@@ -529,7 +540,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void showResults() {
         Intent intent = new Intent(this, ResultsActivity.class);
-        String message = "Registering your email address via the remote took " + ActualKeyPresses + " keypresses.";
+        String message = "Registering your email address via the remote took " + ActualKeyPresses + " keypresses and it's still not a confirmed address. Now try Login With Amazon to compare.";
         intent.putExtra(EXTRA_MESSAGE, message);
         startActivity(intent);
     }

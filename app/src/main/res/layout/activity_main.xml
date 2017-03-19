@@ -541,6 +541,7 @@
             android:layout_below="@id/infoTextViewKeypresses"
             android:layout_toRightOf="@id/buttonReset"
             android:text="@string/login_with_amazon"
+            android:colorButtonNormal="@color/orange"
             android:textSize="20sp" />
 
     </RelativeLayout>
